@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="factura.css">
+  <title>Formulario Registro</title>
+</head>
+
+<body>
+  <script src="inicio.js"></script>
+  <a style="color: white;" href="Acceder.html">volver</a></button>
+  <center>
+    <img src="images/img3.jpg">
+  </center>
+
+  <section class="form-register">
+    <h4>Formulario de factura</h4>
+    <input class="controls" type="number" placeholder="Número de celular" name="numeroTarjeta" autofocus required />
+    <input class="controls" type="text" placeholder="Dirección" />
+    Selecccione un método de pago:<br>
+    <select class="controls">
+      <option>Ninguno</option>
+      <option value="tarjeta">Visa</option>
+      <option value="tarjeta">Mastercard</option>
+      <option value="tarjeta">DinersClub</option>
+    </select>
+    Tipo de tarjeta:<br>
+    <select class="controls">
+      <option>Ninguno</option>
+      <option value="tarjeta">Débito</option>
+      <option value="tarjeta">Crédito</option>
+
+    </select>
+
+    <input class="controls" type="number" placeholder="Número de tarjeta" name="numeroTarjeta" autofocus required />
+    <input class="controls" type="password" placeholder="Código CCV" maxlength="10" />
+
+    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    <button class="botons" type=button onclick=fin()> Enviar</button>
+  </section>
+
+</body>
+
+</html>
